@@ -5,7 +5,7 @@ import { SketchPicker } from "react-color";
 
 const CanvasEditor = () => {
   const canvasRef = useRef(null);
-  const [backgroundColor, setBackgroundColor] = useState("#0369A1");
+  const [backgroundColor, setBackgroundColor] = useState("#7C8C9F");
   const [captionText, setCaptionText] = useState("1 & 2 BHK ");
   const [ctaText, setCtaText] = useState("Shop Now");
   const [uploadedImage, setUploadedImage] = useState("path/to/your/default/image.png"); // Set path to your default image
@@ -104,7 +104,7 @@ image.onload = () => {
       <div className="flex w-full justify-center items-start pt-40"> {/* Container for the left side */}
         {/* Box for the canvas with shadow and rounded corners */}
         <div className="shadow-lg rounded-lg overflow-hidden">
-          <canvas ref={canvasRef} width="400" height="400" className="border bg-white" />
+          <canvas ref={canvasRef} width="1040" height="700" className="border bg-white" />
         </div>
       </div>
   
