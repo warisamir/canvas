@@ -104,7 +104,7 @@ image.onload = () => {
       <div className="flex w-full justify-center items-start pt-40"> {/* Container for the left side */}
         {/* Box for the canvas with shadow and rounded corners */}
         <div className="shadow-lg rounded-lg overflow-hidden">
-          <canvas ref={canvasRef} width="1040" height="700" className="border bg-white" />
+          <canvas ref={canvasRef} width="700" height="700" className="border bg-white" />
         </div>
       </div>
   
